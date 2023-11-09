@@ -15,6 +15,7 @@ export default function Sumary() {
 
     return (
         <>
+        <h3 className="resume-title">Sumary</h3>
             {resumSumary.map((details) => (
                 <div className="resume-item pb-0">
                     <h4>{details.name}</h4>

@@ -1,5 +1,5 @@
 import React from "react";
-import Toggle from "./components/"
+import Toggle from "./Toggle";
 import Hero from "./Hero";
 import Nav from "./Nav";
 
