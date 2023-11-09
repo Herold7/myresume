@@ -13,6 +13,10 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
+    path: "/header",
+    element: <Header />,
+  },
+  {
     path: "/about",
     element: <About />,
   },
