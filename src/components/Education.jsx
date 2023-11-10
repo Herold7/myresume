@@ -22,8 +22,8 @@ export default function Education() {
     <>
       <h3 className="resume-title">Education</h3>
       {resumEduc.map((education, index) => (
-        <div>
-          <div class="resume-item" key={index}>
+        <div key={index}>
+          <div className="resume-item" >
             <h4>{education.degree}</h4>
             <h5>{education.date}</h5>
             <p><em>{education.location}</em></p>

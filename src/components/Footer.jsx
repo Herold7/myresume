@@ -1,32 +1,23 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
 
     return (
         <>
             <footer id="footer">
-                <div class="container">
+                <div className="container">
                     <h3>Brandon Johnson</h3>
                     <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-                    <div class="social-links">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                    <div class="copyright">
+                    <SocialLinks />
+                    <div className="copyright">
                         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
                     </div>
-                    <div class="credits">
+                    <div className="credits">
                         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
             </footer>
-
-            <div id="preloader"></div>
-            <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
         </>
     )
 }

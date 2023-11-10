@@ -1,5 +1,4 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
 import Cards from "./Cards";
 import Testimonials from "./Testimonials";
 
@@ -7,25 +6,20 @@ export default function Services() {
 
     return (
         <>
-            <section id="services" class="services">
-                <div class="container" data-aos="fade-up">
-                    <SectionTitle />
-                    <div class="row">
+            <section id="services" className="services">
+                <div className="container" data-aos="fade-up">
+                    <div className="section-title">
+                        <h2>Services</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <div className="row">
                         <Cards />
                     </div>
                 </div>
             </section>
-            <section id="testimonials" class="testimonials section-bg">
-                <div class="container" data-aos="fade-up">
-                    <SectionTitle />
-                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper">
+            
                             <Testimonials />
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section >
+                    
         </>
     )
 }

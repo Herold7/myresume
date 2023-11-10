@@ -1,5 +1,4 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
 
 export default function Contact() {
 
@@ -8,7 +7,10 @@ export default function Contact() {
             <section id="contact" className="contact">
                 <div className="container" data-aos="fade-up">
 
-                    <SectionTitle />
+                    <div className="section-title">
+                        <h2>Contact</h2>
+                    </div>
+
                     <div className="row mt-1"></div>
                     <div className="col-lg-4">
                         <div className="info">

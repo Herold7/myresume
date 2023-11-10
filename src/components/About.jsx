@@ -1,6 +1,7 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
 import Fact from "./Fact";
+import profile from "../assets/img/profile-img.jpg";
+import Skills from "./Skills";
 
 export default function About() {
     const aboutData1 = "UI/UX Designer &amp; Web Developer.";
@@ -25,10 +26,13 @@ export default function About() {
         <>
             <section id="about" className="about">
                 <div className="container" data-aos="fade-up">
-                    <SectionTitle />
+                    <div className="section-title">
+                        <h2>About</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
                     <div className="row">
                         <div className="col-lg-4">
-                            <img src="assets/img/profile-img.jpg" className="img-fluid" alt="" />
+                            <img src={profile} className="img-fluid" alt="" />
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content">
                             <h3>{aboutData1}</h3>
@@ -70,18 +74,20 @@ export default function About() {
 
             <section id="facts" className="facts">
                 <div className="container" data-aos="fade-up">
-                    <SectionTitle />
                     <Fact />
                 </div>
             </section>
 
             <section id="skills" className="skills section-bg">
                 <div className="container" data-aos="fade-up">
-                    <SectionTitle />
-
+                    <div class="section-title">
+                        <h2>Skills</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <Skills />
                     <div className="col-lg-6"></div>
 
-                    
+
                 </div>
             </section>
         </>

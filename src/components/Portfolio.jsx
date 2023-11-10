@@ -1,29 +1,25 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
-import portfolio1 from "../{assets/img/portfolio/portfolio}-1";
-import portfolio2 from "../{assets/img/portfolio/portfolio}-2";
-import portfolio3 from "../{assets/img/portfolio/portfolio}-3";
-import portfolio4 from "../{assets/img/portfolio/portfolio}-4";
-import portfolio5 from "../{assets/img/portfolio/portfolio}-5";
-import portfolio6 from "../{assets/img/portfolio/portfolio}-6";
-import portfolio7 from "../{assets/img/portfolio/portfolio}-7";
-import portfolio8 from "../{assets/img/portfolio/portfolio}-8";
-import portfolio9 from "../{assets/img/portfolio/portfolio}-9";
+import portfolio1 from "../assets/img/portfolio/portfolio-1.jpg";
+import portfolio2 from "../assets/img/portfolio/portfolio-2.jpg";
+import portfolio3 from "../assets/img/portfolio/portfolio-3.jpg";
+import portfolio4 from "../assets/img/portfolio/portfolio-4.jpg";
+import portfolio5 from "../assets/img/portfolio/portfolio-5.jpg";
+import portfolio6 from "../assets/img/portfolio/portfolio-6.jpg";
+import portfolio7 from "../assets/img/portfolio/portfolio-7.jpg";
+import portfolio8 from "../assets/img/portfolio/portfolio-8.jpg";
+import portfolio9 from "../assets/img/portfolio/portfolio-9.jpg";
 import { Link } from "react-router-dom";
 
 export default function Portfolio() {
-
-    // const folio = [
-    //     {
-
-    //     }
-    // ]
 
     return (
         <>
             <section id="portfolio" className="portfolio section-bg">
                 <div className="container" data-aos="fade-up">
-                    <SectionTitle />
+                    <div className="section-title">
+                        <h2>Portfolio</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
                     <div className="row">
                         <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
                             <ul id="portfolio-flters">

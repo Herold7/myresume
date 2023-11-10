@@ -22,7 +22,7 @@ export default function Experience() {
         <>
                 <h3 className="resume-title">Professional Experience</h3>
                 {resumExp.map((experience, index) => (
-                    <div class="resume-item" key={index}>
+                    <div className="resume-item" key={index}>
                         <h4>{experience.position}</h4>
                         <h5>{experience.date}</h5>
                         <p><em>{experience.location}</em></p>

@@ -16,8 +16,8 @@ export default function Sumary() {
     return (
         <>
         <h3 className="resume-title">Sumary</h3>
-            {resumSumary.map((details) => (
-                <div className="resume-item pb-0">
+            {resumSumary.map((details, index) => (
+                <div className="resume-item pb-0" key={index}>
                     <h4>{details.name}</h4>
                     <p><em>{details.description}.</em></p>
                     <ul>

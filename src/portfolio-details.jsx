@@ -2,6 +2,9 @@ import React from "react";
 import portfolioDetails1 from "./assets/img/portfolio/portfolio-details-1.jpg"
 import portfolioDetails2 from "./assets/img/portfolio/portfolio-details-2.jpg"
 import portfolioDetails3 from "./assets/img/portfolio/portfolio-details-3.jpg"
+
+export default function PortfolioDetails() {
+
 <main id="main">
 
     <section id="portfolio-details" className="portfolio-details">
@@ -54,3 +57,4 @@ import portfolioDetails3 from "./assets/img/portfolio/portfolio-details-3.jpg"
     </section>
 
 </main>
+}
