@@ -2,6 +2,7 @@ import React from "react";
 import Fact from "./Fact";
 import profile from "../assets/img/profile-img.jpg";
 import Skills from "./Skills";
+import  HeroBg from "src/assets/img/hero-bg.jpg"
 
 export default function About() {
     const aboutData1 = "UI/UX Designer &amp; Web Developer.";
